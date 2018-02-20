@@ -2,4 +2,8 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="detail_activity_text_views_margin">16dp</dimen>
+    <dimen name="detail_activity_text_views_labels_size">19sp</dimen>
+    <dimen name="detail_activity_text_views_values_size">18sp</dimen>
 </resources>

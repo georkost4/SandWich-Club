@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,6 +6,28 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name = "DetailView_Labels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/detail_activity_text_views_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_activity_text_views_labels_size</item>
+
+
+    </style>
+
+    <style name="DetailView_Values">
+
+        <item name="android:layout_marginTop">@dimen/detail_activity_text_views_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_activity_text_views_margin</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/detail_activity_text_views_margin</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/detail_activity_text_views_values_size</item>
+
     </style>
 
 </resources>
